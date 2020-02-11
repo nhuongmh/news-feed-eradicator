@@ -8,12 +8,14 @@ const elementsToRemove =
 	'#stories_pagelet_rhc,' +
 	'#fb_stories_card_root,' +
 	'#pagelet_trending_tags_and_topics,' +
-	'#pagelet_canvas_nav_content';
+	'#pagelet_canvas_nav_content' +
+	'#pagelet_ego_pane';
 
 const elementsToEmpty =
 	'[id^=topnews_main_stream],' +
 	'[id^=mostrecent_main_stream],' +
 	'[id^=pagelet_home_stream]';
+	'[id^=pagelet_ego_pane]';
 
 const removeNode = node => node.parentNode.removeChild(node);
 
